@@ -10,8 +10,8 @@ This web application serves as a user-friendly tool for the generation of secure
 
 Here are a couple of screenshots from my project:
 
-![](/images/Screenshot 2023-10-11 at 15.26.17.png)
-![](/images/Screenshot 2023-10-11 at 15.26.33.png)
+![](/images/Screenshot-desktop.png)
+![](/images/Screenshot-phone.png)
 
 ## Technologies Used
 - HTML
@@ -19,5 +19,6 @@ Here are a couple of screenshots from my project:
 - SCSS
 
 
-=>git clone https://github.com/your-username/your-repo.git
+=>git clone https://github.com/Sumeyye-Mete/password-generator.git 
+
 =>live site url 
