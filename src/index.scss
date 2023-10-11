@@ -1,0 +1,45 @@
+$form-check-input-checked-color: #466641;
+$form-check-input-checked-bg-color: white;
+
+@import "bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+body {
+	font-size: 1rem;
+	font-family: "Rubik", sans-serif;
+	background-color: #d6e6d6;
+}
+
+.container-form {
+	@media (min-width: 768px) {
+		width: 50%;
+	}
+	@media (min-width: 1200px) {
+		width: 40rem;
+	}
+	background-color: #f8fbf8;
+	> div {
+		padding: 1rem;
+		> div {
+			padding: 1rem 0.5rem;
+		}
+	}
+	#message {
+		color: #b2533e;
+		visibility: hidden;
+	}
+}
+
+div {
+	border-radius: 10px;
+}
+
+.form-check .form-check-input {
+	margin-left: 0;
+	margin-right: 0.5rem;
+	border: 1px blue solid;
+}
+
+.btn-success {
+	background-color: #466641;
+}
