@@ -21,3 +21,5 @@ Here are a couple of screenshots from my project:
 
 =>git clone https://github.com/Sumeyye-Mete/password-generator.git 
 
+=> live site URL https://sumeyye-mete.github.io/password-generator/
+
