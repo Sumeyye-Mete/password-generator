@@ -17,6 +17,7 @@ Here are a couple of screenshots from my project:
 - HTML
 - JavaScript
 - SCSS
+- Webpack
 
 
 =>git clone https://github.com/Sumeyye-Mete/password-generator.git 
