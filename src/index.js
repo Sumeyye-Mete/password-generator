@@ -10,6 +10,8 @@ const messageEl = document.querySelector("#message");
 const btnGenerate = document.querySelector("#btnGenerate");
 const btnCopy = document.getElementById("btnCopy");
 
+let pwValue = 4;
+
 const uppercaseAlphabet = [];
 for (let i = 65; i <= 90; i++) {
 	uppercaseAlphabet.push(String.fromCharCode(i));
@@ -31,8 +33,12 @@ const randomChar = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 //main function
 const generatePsw = () => {
-	if (!pwLengthEl.value || pwLengthEl.value < 4 || pwLengthEl.value > 30) {
+	console.log(pwValue);
+	if (pwValue > 30 || pwValue < 4) {
+		console.log("hey");
 		messageEl.innerText = "Please enter a number between 4-30";
+		messageEl.style.visibility = "visible";
+		return;
 	}
 	messageEl.innerText = "";
 	let psw = "";
@@ -86,4 +92,9 @@ btnCopy.addEventListener("click", async () => {
 	setTimeout(() => {
 		btnCopy.innerText = "Copy";
 	}, 500);
+});
+
+pwLengthEl.addEventListener("change", () => {
+	pwValue = pwLengthEl.value;
+	console.log(pwValue);
 });
